@@ -6,7 +6,7 @@ license = "GPL-2.0 OR BSD-3-Clause"
 
 [dependencies]
 libbpf-rs = "0.19"
-nix = "0.24.1"
+nix = "0.25.0"
 blazesym = { git = "https://github.com/libbpf/blazesym.git", features = ["cheader"] }
 libc = "*"
 clap = { version = "3.1.18", features = ["derive"] }
